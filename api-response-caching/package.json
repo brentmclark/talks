@@ -4,6 +4,7 @@
   "description": "A talk about API response caching with Apollo Client and apollo-link-rest",
   "main": "index.js",
   "scripts": {
+    "start": "mdx-deck slides/deck.mdx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/brentmclark/talks/issues"
   },
-  "homepage": "https://github.com/brentmclark/talks#readme"
+  "homepage": "https://github.com/brentmclark/talks#readme",
+  "devDependencies": {
+    "mdx-deck": "^3.1.0"
+  }
 }

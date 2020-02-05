@@ -1,0 +1,161 @@
+import { themes, Appear } from 'mdx-deck'
+
+export const theme = themes.big
+
+# Where we're going...
+### we don't need recompose
+
+---
+
+<ul>
+<li>JavaScript devs</li>
+<Appear>
+    <li>want to ship faster</li>
+    <li>worked with or know about redux</li>
+</Appear>
+</ul>
+
+---
+
+<ul>
+<li>Find redux confusing</li>
+<Appear>
+    <li>complicated</li>
+    <li>too much boilerplate</li>
+</Appear>
+</ul>
+
+---
+
+# Thunks and Sagas
+
+To join together our fetch logic and action creators
+
+---
+
+# Reselect
+
+To address selector performance
+
+---
+
+# Boilerplate Intensified
+
+So we brought in <u>Recompose</u>
+
+---
+
+<ul>
+<li>in-flight tracking was suboptimal</li>
+<Appear>
+    <li>duplicated (poorly) everywhere</li>
+    <li>sometimes overlooked</li>
+</Appear>
+</ul>
+
+---
+
+<ul>
+<li>Error handling became inconsistent</li>
+<Appear>
+    <li>duplicated (poorly) everywhere</li>
+    <li>often overlooked</li>
+</Appear>
+</ul>
+
+---
+
+# Indirection was fierce
+
+tracing from component to reducer grew more complex
+
+---
+
+# New domain model... FML
+##### Every new domain model required a full suite of CRUD operations
+
+---
+
+# Things started to fall apart
+
+---
+
+<ul>
+<li>Performance suffered greatly</li>
+<Appear>
+    <li>Maintainability was at an all-time low</li>
+    <li>State-related tasks were unapproachable to new devs</li>
+</Appear>
+</ul>
+
+---
+
+### Only 1 person knew how all of this worked
+##### (let's call him Brent)
+
+---
+
+# Brent the Bottleneck
+
+---
+
+# deadlines were missed
+
+---
+
+# Something had to change
+
+---
+
+# Found apollo client
+
+---
+
+# Found `apollo-link-rest`
+
+---
+
+# query colocation
+##### And other things dramitically reduce indirection
+
+---
+
+# fetching and caching combined
+
+Consistent in-flight indication and error handling
+
+---
+
+# One tool, One Doc Site
+
+Made API cache management approachable for all
+
+---
+
+# Boilerplate Greatly reduced
+
+---
+
+# More resilient code
+
+Due to typed, client-side query language
+
+---
+
+# Performance improves greatly
+
+---
+
+# Delivery speed increases
+
+---
+
+# Deadlines met
+
+---
+
+# Work became fun again
+
+---
+
+# <u>Demo Time</u>

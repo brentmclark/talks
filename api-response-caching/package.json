@@ -1,0 +1,25 @@
+{
+  "name": "api-response-caching",
+  "version": "1.0.0",
+  "description": "A talk about API response caching with Apollo Client and apollo-link-rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentmclark/talks.git"
+  },
+  "keywords": [
+    "apollo",
+    "client",
+    "link",
+    "rest"
+  ],
+  "author": "brentmclark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentmclark/talks/issues"
+  },
+  "homepage": "https://github.com/brentmclark/talks#readme"
+}
